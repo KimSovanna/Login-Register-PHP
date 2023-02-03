@@ -1,9 +1,9 @@
 <?php
 
-$server = "localhost";
-$user = "root";
-$pass = "";
-$database = "users";
+$server = "register-mysql.mysql.database.azure.com";
+$user = "registeradmin";
+$pass = "password@123";
+$database = "register";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 
